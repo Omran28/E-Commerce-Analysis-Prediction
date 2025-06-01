@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Analytics & Machine Learning Project
+# 🛒 E-Commerce Analytics & Machine Learning Prediction
 
 ## 📖 Table of Contents  
 - [🗄️ SQL Server & Azure Integration](#-sql-server--azure-integration)  
