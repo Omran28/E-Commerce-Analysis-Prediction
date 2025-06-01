@@ -18,11 +18,11 @@ This project begins with a comprehensive **E-commerce database** built on **SQL 
 - Established seamless connectivity between local SQL Server and Azure SQL.
 
 ### Visuals:
-![Database Schema](images/sql_schema.png)  
-*Database schema representing customer, orders, and products tables.*
+![Database Schema](Database/E-Commerce ERD.png)  
+*Database schema representing all tables.*
 
-![Azure SQL Setup](images/azure_sql_setup.png)  
-*Azure portal screenshot showing database instance and configuration.*
+![Azure SQL Setup](Azure/1. Azure SQL Database.jpg)  
+*Azure SQL Database and Server.*
 
 ---
 
@@ -37,10 +37,10 @@ Ensuring data protection and system resilience, multiple security and operationa
 - Implemented **Automated Backups** and **Failover Groups** for high availability.
 
 ### Visuals:
-![Azure Firewall](images/azure_firewall.png)  
+![Azure Firewall](Azure/2. Azure Firewall Rules & Exception.jpg)  
 *Azure Firewall configuration overview.*
 
-![Failover Groups](images/failover_groups.png)  
+![Failover Groups](Azure/8. Azure Auto-Failover group.jpg)  
 *Setup of Failover Groups for disaster recovery.*
 
 ---
@@ -53,11 +53,11 @@ A total of **12 intensive SQL queries** were developed and executed to analyze s
 - **6 Advanced Queries** incorporating complex joins, window functions, and aggregations for deeper insights.
 
 ### Visuals:
-![SQL Query Sample](images/sql_query_sample.png)  
-*Example of a complex query calculating monthly active customers.*
+![Basic SQL Queries](SQL Analysis/Basic.png)  
+*Baisc Queries overview.*
 
-![Query Results](images/query_results.png)  
-*Sample results from advanced analysis queries.*
+![Advanced SQL Queries](SQL Analysis/Advanced.png)  
+*Advanced Queries overview.*
 
 ---
 
@@ -70,12 +70,17 @@ The analyzed data was connected to **Power BI** to create dynamic dashboards tha
 - Integrated Power BI with **Microsoft Fabric** to enable enterprise-grade data analytics.
 
 ### Visuals:
-![Power BI Dashboard](images/powerbi_dashboard.png)  
-*Dashboard visualizing customer segmentation and sales funnel.*
+![Power BI Dashboard](Power BI/Home page.png)  
+*Dashboard visualizing Home Page.*
 
-![Microsoft Fabric Integration](images/microsoft_fabric.png)  
-*Microsoft Fabric workspace showing linked Power BI reports.*
+![Sales Overview](Power BI/Sales Overview.png)  
+*Sales Overview Page.*
 
+![Customer Insights](Power BI/Customer Insights.png)  
+*Customer insights Page.*
+
+![Orders Managements](Power BI/Orders Managements.png)  
+*Orders Managements Page.*
 ---
 
 ## 🤖 Machine Learning Models  
@@ -135,11 +140,11 @@ An **AI-driven customer repurchase prediction system** leveraging a **Random For
 - **Pandas & NumPy** – Data manipulation and preprocessing  
 
 ### Visuals:  
-![Repurchase Prediction ROC](images/repurchase_prediction_roc.png)  
-*ROC curve showcasing model’s classification performance.*  
+![Repurchase Prediction Result](ML/Repurchase Prediction/Repurchase Prediction.jpeg)  
+*Repurchase Prediction classification GUI and Testing Sample.*  
 
-![Feature Importance](images/repurchase_feature_importance.png)  
-*Feature importance scores highlighting key drivers for repurchase prediction.*
+![Feature Importance](ML/Repurchase Prediction/RF Features Importance.png)  
+*Feature importance scores for Random Forest Model.*
 
 ---
 
@@ -148,10 +153,10 @@ An **AI-driven customer repurchase prediction system** leveraging a **Random For
 - **Product Recommendation:** Collaborative filtering-based recommendation system to boost cross-selling and customer satisfaction.
 
 ### Visuals:  
-![Customer Segmentation](images/customer_segmentation.png)  
-*Customer clusters visualized using dimensionality reduction.*  
+![Customer Segmentation](ML/Customer Segmentaion/Customer Segmentation System.png)  
+*Customer cluster Sample visualization.*  
 
-![Product Recommendation](images/product_recommendation.png)  
+![Product Recommendation](ML/Product Recommendation/Product Recommendation System.png)  
 *Example personalized product recommendations.*
 
 ---
