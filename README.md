@@ -18,10 +18,10 @@ This project begins with a comprehensive **E-commerce database** built on **SQL 
 - Established seamless connectivity between local SQL Server and Azure SQL.
 
 ### Visuals:
-![Database Schema](Database/E-Commerce ERD.png)  
+![Database Schema](Database/E-Commerce%20ERD.png)
 *Database schema representing all tables.*
 
-![Azure SQL Setup](Azure/1. Azure SQL Database.jpg)  
+![Azure SQL Setup](Azure/1.%20Azure%20SQL%20Database.jpg)
 *Azure SQL Database and Server.*
 
 ---
@@ -37,10 +37,10 @@ Ensuring data protection and system resilience, multiple security and operationa
 - Implemented **Automated Backups** and **Failover Groups** for high availability.
 
 ### Visuals:
-![Azure Firewall](Azure/2. Azure Firewall Rules & Exception.jpg)  
+![Azure Firewall](Azure/2.%20Azure%20Firewall%20Rules%20%26%20Exception.jpg)
 *Azure Firewall configuration overview.*
 
-![Failover Groups](Azure/8. Azure Auto-Failover group.jpg)  
+![Failover Groups](Azure/8.%20Azure%20Auto-Failover%20group.jpg)
 *Setup of Failover Groups for disaster recovery.*
 
 ---
@@ -53,10 +53,10 @@ A total of **12 intensive SQL queries** were developed and executed to analyze s
 - **6 Advanced Queries** incorporating complex joins, window functions, and aggregations for deeper insights.
 
 ### Visuals:
-![Basic SQL Queries](SQL Analysis/Basic.png)  
-*Baisc Queries overview.*
+![Basic SQL Queries](SQL%20Analysis/Basic.png)
+*Basic Queries overview.*
 
-![Advanced SQL Queries](SQL Analysis/Advanced.png)  
+![Advanced SQL Queries](SQL%20Analysis/Advanced.png)
 *Advanced Queries overview.*
 
 ---
@@ -70,17 +70,18 @@ The analyzed data was connected to **Power BI** to create dynamic dashboards tha
 - Integrated Power BI with **Microsoft Fabric** to enable enterprise-grade data analytics.
 
 ### Visuals:
-![Power BI Dashboard](Power BI/Home page.png)  
+![Power BI Dashboard](Power%20BI/Home%20page.png)  
 *Dashboard visualizing Home Page.*
 
-![Sales Overview](Power BI/Sales Overview.png)  
+![Sales Overview](Power%20BI/Sales%20Overview.png)  
 *Sales Overview Page.*
 
-![Customer Insights](Power BI/Customer Insights.png)  
+![Customer Insights](Power%20BI/Customer%20Insights.png)  
 *Customer insights Page.*
 
-![Orders Managements](Power BI/Orders Managements.png)  
+![Orders Managements](Power%20BI/Orders%20Managements.png)  
 *Orders Managements Page.*
+
 ---
 
 ## 🤖 Machine Learning Models  
@@ -140,10 +141,10 @@ An **AI-driven customer repurchase prediction system** leveraging a **Random For
 - **Pandas & NumPy** – Data manipulation and preprocessing  
 
 ### Visuals:  
-![Repurchase Prediction Result](ML/Repurchase Prediction/Repurchase Prediction.jpeg)  
+![Repurchase Prediction Result](ML/Repurchase%20Prediction/Repurchase%20Prediction.jpeg)  
 *Repurchase Prediction classification GUI and Testing Sample.*  
 
-![Feature Importance](ML/Repurchase Prediction/RF Features Importance.png)  
+![Feature Importance](ML/Repurchase%20Prediction/RF%20Features%20Importance.png)  
 *Feature importance scores for Random Forest Model.*
 
 ---
@@ -153,15 +154,13 @@ An **AI-driven customer repurchase prediction system** leveraging a **Random For
 - **Product Recommendation:** Collaborative filtering-based recommendation system to boost cross-selling and customer satisfaction.
 
 ### Visuals:  
-![Customer Segmentation](ML/Customer Segmentaion/Customer Segmentation System.png)  
+![Customer Segmentation](ML/Customer%20Segmentaion/Customer%20Segmentation%20System.png)  
 *Customer cluster Sample visualization.*  
 
-![Product Recommendation](ML/Product Recommendation/Product Recommendation System.png)  
+![Product Recommendation](ML/Product%20Recommendation/Product%20Recommendation%20System.png)  
 *Example personalized product recommendations.*
 
 ---
 
 ## 📝 Summary  
 This project delivers a full end-to-end data analytics and machine learning pipeline tailored for e-commerce. It integrates secure cloud-based database management, in-depth data analysis, interactive visualizations, and predictive modeling — empowering data-driven decisions that enhance business growth and customer engagement.
-
----
